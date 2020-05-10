@@ -1,0 +1,31 @@
+
+
+.container{
+    color: darken($color: #000000, $amount: 0);
+    border: none;
+    background: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    opacity: 2;
+}
+.btn:hover {
+    background-color: #3e8e41;
+    opacity: .8;
+    color: white;
+  }
+  .btn{
+      margin: 10px;
+      font-weight: bold;
+  }
+  
+  .footer{
+      padding: 0;
+      left: 0;
+  }
+  
